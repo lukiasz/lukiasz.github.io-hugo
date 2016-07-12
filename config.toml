@@ -1,0 +1,47 @@
+baseurl = "https://lukiasz.github.io"
+languageCode = "en-us"
+title = "Lukiasz — Home"
+theme = "ghostwriter"
+googleAnalytics = "XXX"
+disqusShortname = "lukiasz"
+
+[Author]
+    name = "Łukasz Olender"
+    profile = "https://www.linkedin.com/in/%C5%82ukasz-olender-3ba15572?trk=hp-identity-name"
+
+[Taxonomies]
+    tag = "tags"
+
+[Params]
+    intro = true
+    headline = "Lukiasz — Home"
+    description = "Personal website, blog and stuff"
+    github = "https://github.com/lukiasz"
+    linkedin = "https://www.linkedin.com/in/%C5%82ukasz-olender-3ba15572?trk=hp-identity-name"
+    twitter = "https://twitter.com/lukiasz"
+
+[Permalinks]
+    post = "/:year/:month/:day/:filename/"
+
+[[menu.main]]
+    name = "About"
+    url = "/about"
+    weight = 2
+
+[[menu.main]]
+    name = "Blog"
+    url = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "Projects"
+    url = "/projects"
+    weight = 3
+
+[[menu.main]]
+    name = "Music"
+    url = "/music"
+    weight = 4
+
+
+
