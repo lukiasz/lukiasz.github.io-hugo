@@ -1,4 +1,4 @@
-baseurl = "https://lukiasz.github.io"
+baseurl = "https://lukiasz.github.io/"
 languageCode = "en-us"
 title = "Lukiasz — Home"
 theme = "ghostwriter"
