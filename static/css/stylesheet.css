@@ -1,0 +1,22 @@
+.article-banner {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+body {
+    font-size: 0.9em;
+    line-height: 1.8em;
+}
+
+.article-style li {
+    font-size: 0.9em;
+    line-height: 1.8em;
+    margin: 0 0 1em 0;
+}
+
+figcaption {
+    text-align: center;
+    margin-top: 0.5em;
+}
