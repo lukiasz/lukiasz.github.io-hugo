@@ -134,14 +134,19 @@ defaultContentLanguageInSubdir = false
     link = "//twitter.com/lukiasz"
 
   [[params.social]]
-    icon = "linkedin "
-    icon_pack = "ai"
+    icon = "linkedin"
+    icon_pack = "fa"
     link = "https://www.linkedin.com/in/%C5%82ukasz-olender-3ba15572/"
 
   [[params.social]]
     icon = "github"
     icon_pack = "fa"
     link = "//github.com/lukiasz"
+
+  [[params.social]]
+    icon = "stack-overflow"
+    icon_pack = "fa"
+    link = "//stackoverflow.com/users/1293919/lukiasz"
 
 # Navigation Links
 #   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
