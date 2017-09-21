@@ -1,6 +1,6 @@
 +++
 date = 2017-09-10
-lastmod = 2017-09-10
+lastmod = 2017-09-21
 draft = false
 tags = ["WTM", "projects"]
 title = "The history of Way To Master and lessons learned"
@@ -8,26 +8,26 @@ math = true
 summary = """Brief history of one of Way To Master - one of the most interesting after-hour projects that I've been involved into."""
 
 [header]
-image = "headers/wtm-logo.png"
+image = "/wtm-1/wtm-logo.png"
 caption = ""
 
 +++
 
-This page describes a brief history of one of the most interesting after-hour projects that I've been involved into. It's called [Way To Master](www.waytomaster.com) and it was intended to help learning English for Polish people. Nothing related to it happened for a two years from now. There are no users, no ads, no new features. Also, there is one week left until domain will expire so probably now the page you're reading is the only visible sign of existence of Way To Master. I miss it a little because it was one of most interesting things I've did and also I believe that idea is still valid. I'm writing this post also for future-me. There will be a point in my life when I'll forget some of these things and then I'll just open it and read.
+This page describes a brief history of one of the most interesting after-hour projects that I've been involved into. It was called Way To Master and it was intended to help learning English for Polish people. Nothing related to it happened for a two years from now. There are no users, no ads, no new features. Also, there is one week left until domain will expire so probably now the page you're reading is one of few visible signs of existence of Way To Master. I'm writing this post mostly for myself in the future. There will be a point in my life when I'll forget some of these things and then I'll just open it and read, assuming Github won't go offline :smile:.
 
 I've split this article into two separate posts. The first one (that you're reading right now) is overall description of the project. The second one explains technicalities and will be published soon.
 
-{{< figure src="/img/wtm/screen1.jpg" title="In-line translating (.srt format)." >}}
+{{< figure src="/img/wtm-1/screen1.jpg" title="In-line translation (.srt format)." >}}
 
 ## Learning foreign languages - standard approach
 
-Let me start from the base idea. Way to master was all about learning foreign languages. And learning a language is a bit twisted phenomena comparing to learning other things. Usually, if you want to master some subject, you're using language (either spoken or written) to learn new concepts. The role of a language here is acting as a transport layer carrying content to learn. By adjusting language, one can gain better understanding of given concept - sometimes learned topics are easier to understand if different words are used and sometimes the opposite holds true.
+Way to master was all about learning foreign languages. And learning a language is a bit twisted phenomena comparing to learning other things. Usually, if you want to master some subject, you're using language (either spoken or written) to learn new concepts. A programmer could say that the role of a language here is acting as a transport layer carrying content to learn. By adjusting language, one can gain better understanding of given concept - sometimes learned topics are easier to understand if different words are used and sometimes the opposite holds true.
 
-Ff you're learning a language, what you want to learn is the transport layer and you're doing it by utilizing some content - articles, sentences, songs, movies, dialogues. Whatever way of learning a language you will use, you need *something* to read, write, speak or hear about. 
+If you're learning a language things are different. What you want to learn is *the transport layer* and you're doing it by utilizing some content - articles, sentences, songs, movies, dialogues. Whatever way of learning a language you will use, you need *something* to read, write, speak or hear about. 
 
-These *somethings* to read, write, speak or hear about are usually fixed and provided by a course creators. Sometimes student has limited possibility of choosing one article or another but there are chances that nothing will really meet his areas of interests anyway. It's partially because people are varying on their interests and partially because learning materials need to be adjusted basing on language level.
+If you prefer to learn a language using one of most common approaches - stationary course, these *somethings* to read, write, speak or hear about are usually fixed and provided by a course creators. Sometimes student has limited possibility of choosing one article or another but there are chances that nothing will really meet his areas of interests anyway. It's partially because people are varying on their interests and partially because learning materials need to be adjusted basing on language level.
 
-{{< figure src="/img/wtm/app_screen1.gif" title="Summary widget displayed after uploading new subtitles." >}}
+{{< figure src="/img/wtm-1/app_screen1.gif" title="Summary widget displayed after uploading new subtitles." >}}
 
 ## Learning foreign languages - our approach
 
@@ -42,25 +42,22 @@ User was supposed to upload original content and then few things were happening:
 
 Now, user could:
 
-  1. Download modified content,
+  1. Download modified content with translations,
   2. Download flashcards with translations and words contexts,
   3. Learn unknown words on the webpage or directly mark them as known.
 
 The learning cycle for the user consisted of:
 
   1. Uploading, downloading and utilizing modified content - watching movies, playing computer games, reading e-books,
-  2. Come back to system few times in a week to make repetitions of learned words.
+  2. Coming back to system few times in a week to make repetitions of learned words.
 
-One interesting idea that come later was to allow to combine already translated materials - like movies or games subtitles. They usually have many translations and starting learning from them could only focus on simpler sentences leaving harder ones untranslated.
-
-
-{{< figure src="/img/wtm/screen2.jpg" title="Top scree translating (.ass format)." >}}
+{{< figure src="/img/wtm-1/screen2.jpg" title="Top scree translating (.ass format)." >}}
 
 ## The big picture
 
-Assuming correct implementation, this system would allow anyone to learn any popular language with an additional boost of experiencing content he likes. That should make the whole process of language acquisition a lot more convenient and a little similar to how people are learning new languages when they migrate to other countries. I couldn't emphasize that more - just please hold on for a moment and imagine - doesn't it look like a way of learning languages that will anyway come up at one time in the future? People playing computer games, watching movies, reading books AND learning languages by the way... The idea is very alluring, at least for me.
+Assuming correct implementation, this system would allow anyone to learn any popular language with an additional boost of experiencing content he likes. That should make the whole process of language acquisition a lot more convenient and similar to how people are learning new languages when they migrate to other countries. I couldn't emphasize that more - just please hold on for a moment and imagine - doesn't it look like a way of learning languages that will anyway come up at one time in the future? People playing computer games, watching movies, reading books AND learning languages by the way... The idea is very alluring, at least for me.
 
-{{< figure src="/img/wtm/app_screen2.gif" title="List of words occurring in some subtitles." >}}
+{{< figure src="/img/wtm-1/app_screen2.gif" title="List of words occurring in some subtitles." >}}
 
 ## Early stages
 
@@ -68,11 +65,11 @@ During spring of 2013, I and few friends from the same university group created 
 
 Then, for our bachelor degree, we implemented a little extended version with a web interface. Never released, only for university. After that, me and my friend Wojtek decided to give it a try and release it to the public and that's where the *startup* chapter starts.
 
-{{< figure src="/img/wtm/landing.png" title="Our landing page." >}}
+{{< figure src="/img/wtm-1/landing.png" title="Our landing page." >}}
 
 ## Final stage
 
-Beginning of 2014 was time of everyone doing their startups, at least that is how I remembered that time. There were a lot of conferences related to this topic in Poland and a lot of buzz about it. Everyone was doing landing pages so we decided to do a landing page before we complete final version. So we did a landing page. Publishing a real service was a little harder than we thought; yet we had a lot of fun doing side quests - like spending days trying to host our solution on linux in one of Polish small cloud provider or asking random people whether they like the idea. At some point in time we decided to reshape the idea and accomplish something simpler. Driven by all startup gurus advices, we felt that we need to find our target group and focus mostly on them. So we picked:
+Beginning of 2014 was time of everyone doing their startups. There were a lot of conferences related to this topic in Poland and a lot of buzz about it. Everyone was doing landing pages so we decided to do a landing page before we complete final version. So we did a landing page :smile:. Publishing a real service was a little harder than we thought; yet we had a lot of fun doing side quests - like spending days trying to host our solution on linux in one of Polish small cloud provider or asking random people whether they like the idea. At some point in time we decided to reshape the idea and accomplish something simpler. Driven by all startup gurus advices, we felt that we need to find our target group and focus mostly on them. So we picked:
 
   - Movies subtitles only
   - People speaking in Polish language which are learning English
@@ -81,7 +78,7 @@ We did it under assumption: *If we can interest polish people with only such a p
 
 Speaking about work - I was mostly responsible for logic of parsing files, extracting words and putting translations in-place. Wojtek was mostly doing frontend and database-related logic (saving words knowledge, comparing knowledge with what was in new files).
 
-{{< video mp4="/img/wtm/wtm_desktop.mp4" title="Desktop application was making subtitle translating cycle easier.">}}
+{{< video mp4="/img/wtm-1/wtm_desktop.mp4" title="Desktop application was making subtitle translating cycle easier.">}}
 
 At the beginning of October, we finally put our application to the real world. In October 28, 2014, we put it on Polish reddit-like page called [Wykop](https://www.wykop.pl/link/2219310/nauka-angielskiego-z-napisow-do-filmow-i-seriali/). We've received over 800 upvotes which at this time was a pretty good result. It converted to over 30 000 visits on our page on a first few days (at least this is what Google Analytics shown us).
 
@@ -89,11 +86,11 @@ Initial week consisted of a little over 1400 new registrations in our applicatio
 
 The question then was - what should be next stage and how to proceed?
 
-{{< video mp4="/img/wtm/wtm_popcorn.mp4" title="We even released our own version of popcorn time :smile:">}}
+{{< video mp4="/img/wtm-1/wtm_popcorn.mp4" title="We even released our own version of popcorn time :smile:">}}
 
 ## Trying to get attention
 
-We've won a local startup competition (Dig Up Start Up in Katowice) and tried interest few VCs in Poland. Unfortunately, without a success. People were interested rather in fast return than in building a global service that will change the way of people are learning languages mostly because the road was not clear to them and also because road was not clear for us. There are huge number of smaller and bigger flashcards-online applications and once you say *flashcard* and *learning*, people seem to recollect memories of all of these websites and apps and try to think like: *ok, that's something like this plus something extra*. It was hard to convince people we've met that having few thousands of free subscriptions actually proves anything valuable for them. Also, it looked like a lot of registered people were just testing our system using it few times and then never going back again. There was no money inside of Way To Master at this stage. We needed to push it to next level. At this time we still received a number of new subscriptions but it started becoming obvious that we need to focus on broader group rather than only Poles trying to learn English. Also, relying on subtitles for movies coming from not 100% legal sources wasn't the best predictor when it comes to monetizing application. 
+We've won a local startup competition (Dig Up Start Up in Katowice) and tried interest few VCs in Poland. Unfortunately, without a success. People were interested rather in fast return than in building a global service that will change the way of people are learning languages. Mostly because the road was not clear to them and also because road was not clear for us. There are huge number of smaller and bigger flashcards-online applications and once you say *flashcard* and *learning*, people seem to recollect memories of all of these websites and apps and try to think like: *ok, that's something like this plus something extra*. It was hard to convince people we've met that having few thousands of free subscriptions actually proves anything valuable for them. Also, it looked like a lot of registered people were just testing our system using it few times and then never going back again. There was no sign of money inside of Way To Master at this stage. We needed to push it to next level. At this time we still received a number of new subscriptions but it started becoming obvious that we need to focus on broader group rather than only Poles trying to learn English. Also, relying on subtitles for movies coming from not 100% legal sources wasn't obviously the best predictor when it comes to monetizing application :smile:. 
 
 ## End of project
 
